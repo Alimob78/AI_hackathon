@@ -94,7 +94,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="False" DeselectAfter="False" DisplayName="Type Into 'menu button'" sap:VirtualizedContainerService.HintSize="1032,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="magic leap[k(enter)]">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="False" DeselectAfter="False" DisplayName="Type Into 'menu button'" sap:VirtualizedContainerService.HintSize="1032,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="linkedin[k(enter)]">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="975cbac9-364b-43cb-88f2-dc53af903872" InformativeScreenshot="445e5f2792e971623e5c611ce806c285" Selector="&lt;webctrl tag='INPUT' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -217,7 +217,7 @@
                   </ActivityAction>
                 </ui:ForEach.Body>
               </ui:ForEach>
-              <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each Page of Magic Leap People" sap:VirtualizedContainerService.HintSize="1032,4801.6" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Enumerable.Range(1,5).ToArray()]">
+              <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each Page of People's data retreived " sap:VirtualizedContainerService.HintSize="1032,4801.6" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Enumerable.Range(1,5).ToArray()]">
                 <ui:ForEach.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -329,7 +329,7 @@
                                       </ui:Click.Target>
                                     </ui:Click>
                                     <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="801.6,22.4" sap2010:WorkflowViewState.IdRef="Delay_13" />
-                                    <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="False" ClickBeforeTyping="False" DisplayName="Type Into 'DIV'" sap:VirtualizedContainerService.HintSize="801.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="Hello, hopefully you are receiving this message because you are/were working at Magic leap. I have written a script that searches for Magic Leap people and adds them to my network. My name is Ali Hadjikhani and I have recently joined Magic leap. I would love to have you in my network and would be grateful if you accept my invitation to connect.">
+                                    <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="False" ClickBeforeTyping="False" DisplayName="Type Into 'DIV'" sap:VirtualizedContainerService.HintSize="801.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="Hello, hopefully you are receiving this message because you are/were looking for new career opportunities or university studies. We have written a script that searches for this group of people and adds them to my network" My name is Sasha and I have recently moved to the USA studying at Berekly. I would love to have you in my network and would be grateful if you accept my invitation to connect.">
                                       <ui:TypeInto.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="18944a33-63ba-4e90-bdd1-b6e7ad21fa89" InformativeScreenshot="26846decd21bda85c8be21f7ed15ee22" Selector="&lt;webctrl aria-role='textbox' tag='DIV' /&gt;">
                                           <ui:Target.TimeoutMS>
